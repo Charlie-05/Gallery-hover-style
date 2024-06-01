@@ -1,14 +1,14 @@
 .gallery {
     display: flex;
     gap: 1 rem;
-    height: 300 px;
-    width: 100 %;
+    height: 300px;
+    width: 100%;
 
 }
 
 .gallery>div {
     flex: 1;
-    transition: all 1 s;
+    transition: all 1s;
     
 }
 
