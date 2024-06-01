@@ -1,0 +1,35 @@
+.gallery {
+    display: flex;
+    gap: 1 rem;
+    height: 300 px;
+    width: 100 %;
+
+}
+
+.gallery>div {
+    flex: 1;
+    transition: all 1 s;
+    
+}
+
+.gallery>:nth-child(1) {
+    background: url("./assets/img1.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery>:nth-child(2) {
+    background: url("./assets/img2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery>:nth-child(3) {
+    background: url("./assets/img3.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery :hover {
+    flex: 6;
+}
